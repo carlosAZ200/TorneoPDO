@@ -1,0 +1,33 @@
+section {
+    background: rgb(239, 245, 255);
+    margin: auto;
+    min-height: 599px;
+}
+
+.divs {
+    background: rgb(111, 115, 121);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+div.registro {
+    margin: 20%;
+    padding: auto;
+    background: yellow;
+    
+}
+
+.alertClass{
+    margin-top: 20px;
+}
+
+.DivClassIniciarSesion{
+    width: 50%;
+    padding: 10%;
+}
+
+.divRegistrarse{
+    margin-top: 3%;
+}
