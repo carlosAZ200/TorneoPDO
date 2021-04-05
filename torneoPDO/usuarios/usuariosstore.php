@@ -8,7 +8,7 @@
     // count cuenta 
     if (count($usuarios) > 0) { 
         $conexionUsuarios->cerrar();
-        header("location:../index.php?accion = 1"); // Usuario existe
+        header("location:../index.php?accion=1"); // Usuario existe
     }else {
         require_once "../model/usuario.php";
 
@@ -20,9 +20,9 @@
         $conexionUsuarios->cerrar();
 
         if ($filas > 0) {
-            header("location:../index.php?accion = 2"); // Usuario se insertó
+            header("location:../index.php?accion=2"); // Usuario se insertó
         }else {
-            header("location:../index.php?accion = 3"); // Usuario no se insertó
+            header("location:../index.php?accion=3"); // Usuario no se insertó
         }
     }
     

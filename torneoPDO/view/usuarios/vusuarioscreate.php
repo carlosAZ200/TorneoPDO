@@ -12,7 +12,7 @@
                     <div class="col">
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="inputGroup-sizing-password">Password</span>
-                            <input type="text" class="form-control" aria-describedby="inputGroup-sizing-password" name="password">
+                            <input type="password" class="form-control" aria-describedby="inputGroup-sizing-password" name="password">
                         </div>    
                     </div>
                 </div>
@@ -20,7 +20,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="d-grid gap-2">
-                            <button class="btn btn-primary" type="button">Registrarse</button>
+                            <button class="btn btn-primary" type="submit">Registrarse</button>
                         </div>
                     </div>
                 </div>

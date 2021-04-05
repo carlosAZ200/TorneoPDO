@@ -1,5 +1,10 @@
 <section>
     <div class="container DivClassIniciarSesion">
+        <?php if (isset($_GET["accion"])) { ?>
+            <div class="<?= $clase ?>" role="alert">
+                <?= $mensaje?>
+            </div>
+        <?php  } ?>
         <h1>Iniciar sesión</h1>
         <form action="iniciar.php" method="POST">
             <div class="mb-3">
